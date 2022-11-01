@@ -1,0 +1,57 @@
+.task-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: -3px 1px 12px 3px rgba(196, 196, 196, 0.693);
+    -webkit-box-shadow: -3px 1px 12px 3px rgba(196, 196, 196, 0.693);
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 300px;
+    height: 100%;
+}
+
+.task-title, .task-explore {
+    font-weight: bold;
+    margin: 0;
+    color: rgb(66, 66, 66)
+}
+
+.task-description {
+    font-size: 15px;
+    margin: 0;
+    color: rgb(88, 88, 88)
+}
+
+.task-status {
+    background-color: rgb(55, 182, 55);
+    border: 1px solid rgb(24, 160, 24);
+    line-height: 40px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+#unchecked {
+    background-color: rgb(179, 179, 179);
+    border: 1px solid rgb(81, 81, 81);
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+}

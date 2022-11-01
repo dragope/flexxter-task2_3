@@ -1,0 +1,24 @@
+[{
+        "id": 1,
+        "title": "Build the wall",
+        "description": "Please build all the walls", 
+        "checked": true
+},
+{
+        "id": 2,
+        "title": "Paint the wall",
+        "description": "Please paint all the walls in white color", 
+        "checked": false
+},
+{
+        "id": 3,
+        "title": "Build the roof",
+        "description": "Please build the roof", 
+        "checked": true
+},
+{
+        "id": 4,
+        "title": "Paint the roof",
+        "description": "Please paint the roof in white color", 
+        "checked": false
+}]
